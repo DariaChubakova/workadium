@@ -1,0 +1,22 @@
+.partners {
+    margin-bottom: 54px; 
+}
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.partners__item {
+    width: 33.3%;
+    float: left;
+    position: relative;
+    margin-bottom: 40px;
+    max-height: 62px;
+    filter: grayscale(100%);
+    text-align: center;
+}
+.partners__item:hover {
+    content: "";
+    filter: grayscale(0%);
+}
